@@ -112,7 +112,7 @@ git checkout tagname 和 git reset --hard tagname 都可以回退到历史版本
 
 ## 可视化软件
 Fork
-
+Sublime git
 
 ## Website
 
