@@ -3,7 +3,10 @@ Learn how to use git.
 
 MIT license.
 
-##SSH key
+## Content
+[TOC]
+
+## SSH key
 
 ssh-keygen -t rsa -C "youremail@example.com"
 
