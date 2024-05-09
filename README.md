@@ -8,7 +8,17 @@ MIT license.
 
 ## SSH key
 
-ssh-keygen -t rsa -C "youremail@example.com"
+ssh-keygen -t ed25519 -C "youremail@example.com"
+
+Note: rsa is only used when ed25519 is not supported in legacy systems.
+
+## GPG key
+
+subkey with [S] will be OK
+
+Note: remote address can be only used like: "https://github.com/eddyup/Gitskills"
+
+> remote address "git@github.com:eddyup/Gitskills" is only used for SSH key.
 
 ## git command
 
