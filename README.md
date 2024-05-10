@@ -40,6 +40,10 @@ git add .
 
 git commit -m "message"
 
+if you want to sign with GPG key, use the following:
+
+git commit -S -m "message"
+
 ### See status
 
 git status
