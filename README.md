@@ -44,6 +44,12 @@ if you want to sign with GPG key, use the following:
 
 git commit -S -m "message"
 
+> If you want to sign every all commits by default, enter the following command:
+> ```
+> git config --global commit.gpgsign true
+> ```
+> then when you use `git commit -m "message"`, it is the same as `git commit -S -m "message"`. It is not convenient when you do not use it often. Therefore I recommend that do not config it as global, and use the flag `-S` when you want to sign.
+
 ### See status
 
 git status
