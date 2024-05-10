@@ -16,9 +16,7 @@ Note: rsa is only used when ed25519 is not supported in legacy systems.
 
 subkey with [S] will be OK
 
-Note: remote address can be only used like: "https://github.com/eddyup/Gitskills"
-
-> remote address "git@github.com:eddyup/Gitskills" is only used for SSH key.
+Note: if your remote address is "git@github.com:eddyup/Gitskills", you have to set SSH key first before push to github.
 
 ## git command
 
